@@ -15,13 +15,12 @@ const Header = () => {
       <div>
         <select className='bg-transparent border border-1 border-slate-50 px-4 py-1 rounded mr-6 text-white' >
           <option className='text-black hover:text-white'>English</option>
-          <option className='text-black hover:text-white'>Urdu</option>
+          <option className='text-black hover:text-white'>हिंदी</option>
         </select>
         <button className='bg-btn-primary text-white p-1 px-4 rounded font-bold text-sm'>Sign In</button>
       </div>
       </div>
 
-    
     </div>
   )
 }

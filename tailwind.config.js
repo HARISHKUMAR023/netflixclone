@@ -9,7 +9,8 @@ module.exports = {
     extend: {
        colors: {
         'netflix': '#000',
-        'btn-primary':'#E50914'
+        'btn-primary':'#E50914',
+        'border-primary':'rgba(128,128,128,0.7)'
       },
     },
   },
