@@ -9,11 +9,13 @@ const Home= () => {
     <Header/>
   
    <div >
-   <Image  src="/nextbg.jpg"alt="Netflix Logo" className='netflix-bg-img z-30 h-[700px] w-full absolute top-0 brightness-50'
+   <Image  src="/nextbg.jpg"alt="Netflix Logo" className='netflix-bg-img z-20 h-[700px] w-full absolute top-0 brightness-50'
         width={1200}
         height={300} ></Image> 
+
         
    </div>
+   <div className='bg-gradent z-30 h-[700px] w-full absolute top-0'></div>
    <div className=' z-40 relative flex flex-col justify-items-center  items-center mt-52 '>
    <h1 className='text-white text-5xl  font-black text-center ' >Unlimited movies, TV shows and more</h1>
    <p className='text-white text-2xl font-normal mt-4'>Watch anywhere. Cancel anytime.</p>

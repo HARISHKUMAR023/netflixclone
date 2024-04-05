@@ -7,6 +7,7 @@ import Watch from '@/components/Watch';
 import Kids from '@/components/Kids';
 import FaqPage from '../Faq';
 // import Faq from '@/components/Faq';
+import Footer from '@/components/Footer';
 
 const Main = () => {
    // Marking this component as client-side
@@ -19,6 +20,7 @@ const Main = () => {
 <Watch/>
 <Kids/>
 <FaqPage/>
+<Footer/>
 {/* <Faq/> */}
     </div>
   )
